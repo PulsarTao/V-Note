@@ -23,9 +23,17 @@
         /// 使用代码编辑器修改此方法的内容。
         /// </summary>
         private void InitializeComponent ( ) {
-            this.components = new System.ComponentModel.Container ( );
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(601, 339);
+            this.Name = "Form1";
+            this.Text = "服务控制台";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
